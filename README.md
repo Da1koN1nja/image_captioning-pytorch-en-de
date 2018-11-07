@@ -3,7 +3,7 @@
 Corwynne Leng: Image captioning model for Final Year project for Stellenbosch University.
 This project does have some elements from the image captioning model at: https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/03-advanced/image_captioning.
 However, this model uses the Multi30k dataset instead of COCO, and can perform image captioning for English and German to reasonable success. It also implements its own version of beam search as well as a soft attention layer.
-The following Python modules are needed: PyTorch, pandas, NLTK. I most likely missed out on a few modules that should be included.
+The following Python modules are needed: PyTorch, pandas, NLTK, numpy, scipy. I most likely missed out on a few modules that should be included.
 The code definitely has not been refined and there are many redundant blocks of code or variables. But the main function does work.
 You will need to extract the Flickr30 images into the data folder and rename the folder to 'flickr30k'.
 Then perform the run the following files:
