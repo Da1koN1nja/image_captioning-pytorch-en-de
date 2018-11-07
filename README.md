@@ -1,6 +1,6 @@
 # image_captioning-pytorch-en-de
 
-Image captioning model for Final Year project for Stellenbosch University
+Corwynne Leng: Image captioning model for Final Year project for Stellenbosch University.
 This project does have some elements from the image captioning model at: https://github.com/yunjey/pytorch-tutorial/tree/master/tutorials/03-advanced/image_captioning
 However, this model uses the Multi30k dataset and can perform image captioning for English and German to reasonable success. It also implements its own version of beam search as well as a soft attention layer.
 The following Python modules are needed: PyTorch, pandas, NLTK. I most likely missed out on a few modules that should be included.
@@ -16,4 +16,4 @@ Then perform the run the following files:
 7) if you want to run on your own images use get_image.py --image=(Path of of image here), --lang=(which language you want to decode to)
 Notes:
 if you want to change model architectures, you can use the config.py file. CNN architectures that work are VGG-16 (vgg16) and ResNet-50 (resnet50). RNN uses LSTM (lstm) or GRU (gru).
-This code can definitely be improved upon.
+This code can definitely be improved upon and again, have to reiterate, VERY ugly. 
